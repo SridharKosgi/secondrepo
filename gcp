@@ -1,0 +1,15 @@
+public class StringManipulation {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "World";
+
+        String combined = str1 + " " + str2; // Concatenation using '+' operator
+        System.out.println("Combined string: " + combined);
+
+        String upperCase = str1.toUpperCase(); // Convert to uppercase
+        System.out.println("Uppercase: " + upperCase);
+
+        int length = combined.length(); // Get string length
+        System.out.println("Length of combined string: " + length);
+    }
+}
